@@ -11,7 +11,7 @@ echo ""
 else
 echo ""
 echo -e "\e[93mPembuatan Konfig informasi yang dibutuhkan\e[0m"
-echo -e "Lihat pada \e[34mhttp://eggo.ga/FAQ \e[39mjika anda tidak mengerti."
+echo -e "Lihat pada \e[34mhttp://eg-goez.github.io/faq.html \e[39mjika anda tidak mengerti."
 echo ""
 echo -n "Nick Owner Bot? : "
 read owner;
@@ -33,7 +33,7 @@ echo ""
 echo -e "\033[30;43;4mTekan Sembarang Keyboard!!\033[0m"
 read x;
 cd $HOME
-wget http://la.eggoez.com/files/eggdrop6.tar.gz && tar zxf eggdrop6.tar.gz && rm -rf eggdrop6.tar.gz && mv eggdrop6 eggoez && cd eggoez && ./configure && make config && export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib && make && make install && cd ~/ && mv eggdrop .eggoez && cd ~/.eggoez && mkdir data && wget repo.eggo.ga/src/eggoez17-tcl.tar.gz && tar zxf eggoez17-tcl.tar.gz && rm -rf eggoez17* && export MALLOC_CHECK_=4 && wget https://raw.githubusercontent.com/eg-goez/.eggoez/master/conf/egg.conf && mv eggdrop goez
+wget http://geocities.ws/ciut/dok/eggdrop6.tar.gz && tar zxf eggdrop6.tar.gz && rm -rf eggdrop6.tar.gz && mv eggdrop6 eggoez && cd eggoez && ./configure && make config && export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib && make && make install && cd ~/ && mv eggdrop .eggoez && cd ~/.eggoez && mkdir data && wget http://berkas.eggoez.com/repo/src/eggoez17-tcl.tar.gz && tar zxf eggoez17-tcl.tar.gz && rm -rf eggoez17* && export MALLOC_CHECK_=4 && wget https://raw.githubusercontent.com/eg-goez/.eggoez/master/conf/egg.conf && mv eggdrop goez
 echo listen $listen all >> egg.conf
 echo set owner \"$owner\" >> egg.conf
 echo set servers \{$servers\} >> egg.conf
