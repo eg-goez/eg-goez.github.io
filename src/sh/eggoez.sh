@@ -11,7 +11,7 @@ echo ""
 else
 echo ""
 echo -e "\e[93mPembuatan Konfig informasi yang dibutuhkan\e[0m"
-echo -e "Lihat pada \e[34mhttp://eggo.ga/FAQ \e[39mjika anda tidak mengerti."
+echo -e "Lihat pada \e[34mhttp://eg-goez.github.io/faq.html \e[39mjika anda tidak mengerti."
 echo ""
 echo -n "Nick Owner Bot : "
 read owner;
@@ -33,7 +33,7 @@ echo ""
 echo -e "\033[30;43;4mTekan sembarang untuk memulai\033[0m"
 read x;
 cd $HOME
-wget http://repo.eggo.ga/beta/beta18.tar.gz
+wget http://berkas.eggoez.com/repo/beta/beta18.tar.gz
 tar zxf beta*.tar.gz
 cd .eggoez
 wget https://raw.githubusercontent.com/eg-goez/.eggoez/master/conf/patch/egg.conf
