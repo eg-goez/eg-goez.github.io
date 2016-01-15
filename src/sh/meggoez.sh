@@ -11,7 +11,7 @@ echo ""
 else
 echo ""
 echo -e "\e[93mPembuatan Konfig informasi yang dibutuhkan\e[0m"
-echo -e "Lihat pada \e[34mhttp://eggo.ga/FAQ \e[39mjika anda tidak mengerti."
+echo -e "Lihat pada \e[34http://eg-goez.github.io/faq.html \e[39mjika anda tidak mengerti."
 echo ""
 echo -n "Nick Owner Bot : "
 read owner;
@@ -31,7 +31,7 @@ echo ""
 echo -e "\033[30;43;4mTekan sembarang untuk memulai\033[0m"
 read x;
 cd $HOME
-wget https://github.com/eggheads/eggdrop-1.8/archive/master.zip && unzip master.zip && rm -rf master.zip && mv eggdrop* eggoez && cd eggoez && ./configure && make config && make && make install && cd ~/ && mv eggdrop .eggoez && cd ~/.eggoez && wget http://repo.eggo.ga/src/eggoez17-tcl.tar.gz && tar zxf eggoez17-tcl.tar.gz && mkdir data && mv eggdrop goez && wget https://raw.githubusercontent.com/eg-goez/.eggoez/master/conf/egg.conf
+wget https://github.com/eggheads/eggdrop-1.8/archive/master.zip && unzip master.zip && rm -rf master.zip && mv eggdrop* eggoez && cd eggoez && ./configure && make config && make && make install && cd ~/ && mv eggdrop .eggoez && cd ~/.eggoez && wget http://berkas.eggoez.com/repo/src/eggoez17-tcl.tar.gz && tar zxf eggoez17-tcl.tar.gz && mkdir data && mv eggdrop goez && wget https://raw.githubusercontent.com/eg-goez/.eggoez/master/conf/egg.conf
 echo listen $listen all >> egg.conf
 echo set owner \"$owner\" >> egg.conf 
 echo set servers \{$servers\} >> egg.conf
