@@ -33,8 +33,10 @@ echo ""
 echo -e "\033[30;43;4mTekan sembarang untuk memulai\033[0m"
 read x;
 cd $HOME
-wget http://berkas.eggoez.com/repo/beta/beta18.tar.gz
-tar zxf beta*.tar.gz
+wget https://github.com/eg-goez/.eggoez/archive/1.8.tar.gz
+tar zxf 1.8.tar.gz
+mv eggoez-1.8 .eggoez
+rm -rf pax_global_header 1.8.tar.gz
 cd .eggoez
 wget https://raw.githubusercontent.com/eg-goez/.eggoez/master/conf/patch/egg.conf
 echo set my-hostname \"$ips\" >> egg.conf
